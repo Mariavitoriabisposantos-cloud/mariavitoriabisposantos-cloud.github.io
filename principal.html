@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Da Maria</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <header>
+        <a href="principal.html" style="text-decoration: none; color: inherit;">
+            <h1>Maria Vitória Bispo Santos</h1>
+        </a>
+    </header>
+    <ul id="nav-links">
+        <li><a href="index.html">Dados Pessoais</a></li>
+        <li><a href="imagens.html">Imagens</a></li>
+        <li><a href="habilidades.html">Habilidades/Projetos</a></li>
+        <li><a href="interesses.html">Interesses</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="main-content">
+    
+    <section id="principal" class="visible">
+        <h2>Portfólio</h2>
+        <div class="card-moderno">
+            <p>Olá!
+
+Seja bem-vindo(a) ao meu portfólio. Meu nome é Maria Vitória Bispo Santos e este espaço foi criado para você conhecer um pouco mais sobre minha jornada.
+
+Navegue pelo menu para explorar minha trajetória acadêmica, habilidades, projetos e interesses. Além disso, aproveite para conhecer o companheiro de todas as horas, meu cachorro, que faz parte de todos os momentos importantes.
+
+Fique à vontade para entrar em contato comigo e obrigado(a) pela visita!</p>
+        </div>
+    </section>
+    
+    <section id="imagens" class="visible">
+        <div class="card-moderno">
+            <div class="imagens-galeria">
+                <img src="/imagem/foto7.jpg" alt="imagem 7">
+                <img src="/imagem/foto8.jpg" alt="Imagem 8">
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>
