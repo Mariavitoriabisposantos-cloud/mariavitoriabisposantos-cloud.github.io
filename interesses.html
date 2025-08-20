@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Da Maria- Interesses</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <header>
+    <a href="principal.html" style="text-decoration: none; color: inherit;">
+        <h1>Maria Vitória Bispo Santos</h1>
+    </a>
+</header>
+    <ul id="nav-links">
+        <li><a href="index.html">Dados Pessoais</a></li>
+        <li><a href="imagens.html">Imagens</a></li>
+        <li><a href="habilidades.html">Habilidades/Projetos</a></li>
+        <li><a href="interesses.html" class="active">Interesses</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="main-content">
+    <section id="interesses" class="visible">
+    <h2>Interesses</h2>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Mestrado em IA</div>
+        <p>O mestrado em Inteligência Artificial representa uma oportunidade de aprofundamento científico e tecnológico em uma das áreas mais promissoras da atualidade. Esse campo de estudos possibilita compreender, desenvolver e aplicar algoritmos capazes de simular a cognição humana, impactando setores como saúde, educação, segurança e indústria. Além disso, o mestrado amplia a capacidade crítica e a autonomia intelectual do estudante, preparando-o para contribuir com soluções inovadoras que podem transformar a sociedade de maneira significativa.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Intercâmbio Cultural</div>
+        <p>Participar de um intercâmbio cultural constitui uma experiência transformadora, pois proporciona vivências que ultrapassam os limites do ambiente acadêmico. Esse tipo de oportunidade possibilita o contato direto com outras culturas, valores e modos de vida, incentivando a tolerância, a empatia e a capacidade de adaptação. No campo profissional, a vivência internacional enriquece o currículo e fortalece competências essenciais, como a comunicação intercultural e a flexibilidade diante de diferentes contextos sociais.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Estudar Outros Idiomas</div>
+        <p>O aprendizado de novos idiomas vai além da aquisição de competências linguísticas: ele amplia horizontes culturais, possibilita maior inserção no mercado de trabalho e facilita o acesso a produções acadêmicas internacionais. A habilidade de se comunicar em diferentes línguas também fortalece o pensamento crítico e a sensibilidade intercultural, características essenciais em um mundo cada vez mais globalizado e interconectado. Dominar outros idiomas, portanto, é um investimento em mobilidade acadêmica, profissional e pessoal.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Pesquisa Científicas</div>
+        <p>A participação em pesquisas científicas é um pilar fundamental da vida acadêmica, pois permite o desenvolvimento do pensamento crítico, da autonomia intelectual e da capacidade de investigação. Por meio da pesquisa, os estudantes têm a oportunidade de contribuir para a produção de novos conhecimentos, além de fomentar soluções práticas para os desafios enfrentados pela sociedade. O engajamento nesse campo fortalece a formação acadêmica e estimula uma postura ativa diante da inovação e da transformação social.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Desenvolver Habilidades Artísticas</div>
+        <p>O desenvolvimento de habilidades artísticas, como música, pintura, teatro ou escrita criativa, é uma forma de estimular a expressão individual e a sensibilidade estética. Além de favorecer o equilíbrio emocional e o bem-estar psicológico, a arte possibilita a construção de novas perspectivas sobre o mundo, expandindo a criatividade e a capacidade de inovação. Incorporar práticas artísticas ao percurso acadêmico e profissional é uma maneira de cultivar a originalidade e enriquecer a formação integral do indivíduo.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Cursos Livres</div>
+        <p>Os cursos livres se destacam por sua flexibilidade e diversidade, permitindo ao estudante explorar áreas de interesse específicas sem o compromisso de uma formação extensa. Eles representam uma oportunidade de atualização constante, ampliando competências técnicas e pessoais de forma rápida e prática. Além de favorecer a empregabilidade, os cursos livres estimulam a autonomia no processo de aprendizagem, tornando-os ferramentas eficazes para acompanhar as demandas dinâmicas do mercado de trabalho e da vida acadêmica.</p>
+    </div>
+</section>
+</div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>

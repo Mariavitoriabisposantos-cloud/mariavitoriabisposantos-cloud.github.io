@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Da Maria- Habilidades/Projetos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <header>
+    <a href="principal.html" style="text-decoration: none; color: inherit;">
+        <h1>Maria Vitória Bispo Santos</h1>
+    </a>
+</header>
+    <ul id="nav-links">
+        <li><a href="index.html">Dados Pessoais</a></li>
+        <li><a href="imagens.html">Imagens</a></li>
+        <li><a href="habilidades.html" class="active">Habilidades/Projetos</a></li>
+        <li><a href="interesses.html">Interesses</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="main-content">
+    <section id="habilidades" class="visible">
+    <h2>Habilidades/Projetos</h2>
+
+    <div class="card-moderno">
+        <div class="subtitulo">Soft Skills</div>
+        <p>Comunicação<br>Empatia<br>Liderança<br>Autoconhecimento<br>Criatividade</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Head Skills</div>
+        <p>Fluente em Idiomas<br>Habilidades de Desing<br>Habilidades Financeiras<br>Conhecimento em marketing digital</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Dispositivo Inteligente para Pessoas com Baixa Visão</div>
+        <p>Um projeto que visa desenvolver um dispositivo que facilite a vida de pessoas com deficiência visual, provavelmente utilizando recursos como sensores, reconhecimento de objetos e orientação.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Sistemas de Iluminação Pública Inteligente</div>
+        <p>Projetos que utilizam sensores de presença e luminosidade com conectividade Zigbee para otimizar o consumo de energia e melhorar a eficiência da iluminação pública.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Plataformas de Treinamento e Educação</div>
+        <p>Projetos que desenvolvem plataformas para aprendizado online, com recursos como cursos interativos, quizzes, jogos educativos e ferramentas para acompanhamento do progresso do aluno.</p>
+    </div>
+    </section>
+</div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>

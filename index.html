@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Da Maria - Dados Pessoais</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <header>
+    <a href="principal.html" style="text-decoration: none; color: inherit;">
+        <h1>Maria Vitória Bispo Santos</h1>
+    </a>
+</header>
+    <ul id="nav-links">
+        <li><a href="index.html" class="active">Dados Pessoais</a></li>
+        <li><a href="imagens.html">Imagens</a></li>
+        <li><a href="habilidades.html">Habilidades/Projetos</a></li>
+        <li><a href="interesses.html">Interesses</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="main-content">
+   <section id="dados" class="visible">
+    <h2>Dados Pessoais</h2>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Sobre Mim</div>
+        <p>Tenho 18 anos e resido na cidade de São Paulo. Atualmente, curso Engenharia da Computação, buscando desenvolver habilidades técnicas e estratégicas que me preparem para uma carreira sólida e de alto impacto. Entre meus hobbies, destaco a pintura, a prática de esportes, a musculação e o aprendizado de guitarra, atividades que contribuem para minha disciplina, criatividade e equilíbrio pessoal.</p>
+        <p>Meu objetivo profissional é tornar-me uma grande gestora de banco, atuando com inovação, visão estratégica e liderança no setor financeiro. Pretendo unir o conhecimento tecnológico adquirido na área de engenharia à capacidade de gestão, oferecendo soluções modernas e eficientes que impulsionem o crescimento e a competitividade das instituições em que atuar.</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Escolaridade</div>
+        <p>Colégio Visconde de Porto Seguro<br>2013/2024</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Formação</div>
+        <p>Engenharia Da Computação<br>Ibmec - 2025 /2030</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Certificado</div>
+        <p>Medalha de Bronze<br>da Olimpíada Brasileira de Raciocínio Lógico</p>
+    </div>
+</section> 
+</div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>

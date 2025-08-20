@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Da Maria - Contato</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+   <header>
+    <a href="principal.html" style="text-decoration: none; color: inherit;">
+        <h1>Maria Vitória Bispo Santos</h1>
+    </a>
+</header>
+    <ul id="nav-links">
+        <li><a href="imagens.html">Imagens</a></li>
+        <li><a href="habilidades.html">Habilidades/Projetos</a></li>
+        <li><a href="interesses.html">Interesses</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="main-content">
+    <section id="contato" class="visible">
+    <h2>Contato</h2>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">Telefone</div>
+        <p>11967630831</p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">E-mail</div>
+        <p><a href="mailto:mariavitoriabisposantos@gmail.com">mariavitoriabisposantos@gmail.com</a></p>
+    </div>
+    
+    <div class="card-moderno">
+        <div class="subtitulo">LinkedIn</div>
+        <p><a href="https://www.linkedin.com/in/maria-undefined-861338295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">https://www.linkedin.com/in/maria-undefined-861338295</a></p>
+    </div>
+</section>
+</div>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>
